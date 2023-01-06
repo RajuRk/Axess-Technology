@@ -1,0 +1,28 @@
+.left-course-image{
+    display: flex;
+    align-items: center;
+}
+.course-features{
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+.title-course-desc h2{
+    font-family: 'Inter', sans-serif!important;
+    font-weight: 700;
+    color: #00162C;
+}
+.icon-dec-box{
+    padding: 10px 10px;
+    margin-bottom: 30px;
+}
+.icon-dec-box img{
+    width: 60px;
+    background-color: #DEF0FF;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.icon-dec-box h5{
+    font-weight: 500;
+    font-size: 18px;
+}

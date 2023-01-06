@@ -1,0 +1,118 @@
+img{
+    width: 100%;
+  }
+  .left-sec{
+      display: flex;
+      align-items: center;
+  }
+  .banner-left{
+      position: relative;
+  }
+  h3{
+      font-family: 'Playfair Display', serif;
+      font-weight: 600;
+  }
+  h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700!important;
+  }
+  .title h1{
+      color: #00162C;
+      font-size: 3em;
+      padding: 10px 10px;
+  }
+  .subtitle h3{
+      color: #00162C;
+      padding: 5px 10px;
+      font-size: 28px;
+  }
+  .title h1 span{
+      color: #FFA000;
+  }
+  .get-btn{
+      padding: 10px 10px;
+  }
+  .get-btn button{
+      background-color: #0A66C2;
+      border-color: #0A66C2;
+      padding: 10px 20px;
+      border-radius: 3px;
+  }
+  .cols-sec{
+      background-color: #CCE8FF;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      border-radius: 0px 50px 50px 0px;
+      display: flex;
+      align-items: center;
+      padding: 10px 10px;
+      margin-top: 25px;
+  }
+  .courses{
+      display: flex;
+      gap: 4em;
+  }
+  .course{
+      display: flex;
+      align-items: center;
+  }
+  .course p{
+      margin-bottom: 0;
+      width: 110px;
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: 600;
+      padding: 0 5px;
+  }
+  .course img{
+      width: 37px;
+  }
+  .blue-back{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 30px 0;
+  }
+  .blue-back p{
+      margin-bottom: 0;
+  }
+  .second-container{
+      overflow: hidden;
+      background-color: #0A66C2;
+      margin-top: 60px;
+  }
+  .blue-col{
+      color: #fff;
+      padding: 5px 60px;
+  }
+  .blue-col:nth-child(1),
+  .blue-col:nth-child(2){
+      border-right: 2px solid #fff;
+  }
+  @media only screen and (max-width: 600px){
+    .cols-sec{
+        position: static;
+    }
+    .courses{
+        gap: 0.3em;
+    }
+    .course{
+        display: initial;
+    }
+    .course img{
+        margin-bottom: 10px;
+    }
+    .course p{
+        width: auto;
+    }
+    .blue-back{
+        display: initial;
+    }
+    .blue-col:nth-child(1),
+    .blue-col:nth-child(2){
+      border-right: none;
+    }
+}

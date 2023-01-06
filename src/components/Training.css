@@ -1,0 +1,27 @@
+.training-institute{
+    background-color: #FFE3B2;
+    padding: 60px 0;
+    margin-bottom: 60px;
+}
+.left-training{
+    padding: 0px 15px;
+}
+.left-training h2{
+    font-family: 'Inter', sans-serif!important;
+    font-weight: 700;
+    color: #00162C;
+    margin-bottom: 15px;
+}
+button.contact-btn{
+    background-color: #0A66C2;
+    border-color: #0A66C2;
+    box-shadow: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.flex-class{
+    display: flex;
+    align-items: center;
+}

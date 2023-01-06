@@ -1,0 +1,27 @@
+.videoSlide{
+    padding-top: 60px;
+    background-color: #CCE8FF;
+    padding-bottom: 30px;
+}
+.testimonial-sec{
+    background-color: #fff;
+    padding: 15px 20px;
+    margin: 30px 30px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px 0px #b1b1b1;
+}
+.testimonials img{
+    width: 150px;
+}
+.testimonials h4{
+    font-weight: 600;
+    color: #00162C;
+    font-size: 22px;
+    margin: 24px 0px 10px 0px;
+}
+.testimonials p.position{
+    color: #00162C;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size: 18px;
+}

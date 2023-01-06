@@ -1,0 +1,64 @@
+.courses-sec{
+    margin-top: 60px;
+}
+.course-Top h2{
+    font-family: 'Inter', sans-serif!important;
+    font-weight: 700;
+    color: #00162C;
+}
+.course-Top p,
+.couse-desc p{
+    color: #252525;
+    font-weight: 400;
+}
+.couse-desc{
+    padding: 0px 15px 15px 15px;
+}
+.couse-desc h5{
+    font-family: 'Inter', sans-serif!important;
+    font-weight: 700;
+    color: #00162c;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.couse-desc a{
+    color: #787878;
+    text-decoration: none;
+    font-weight: 400;
+}
+.tab-icons-top{
+    color: #2F2F2F;
+    font-weight: 500;
+}
+.course-obj{
+    border-radius: 10px;
+    margin: 5px 0;
+}
+.star-hrs{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.star-sec ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.star-sec p{
+    font-size: 10px;
+    color: #818181;
+    margin: 10px 0;  
+}
+.hrs-sec p{
+    color: #273f52;
+    position: relative;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.hrs-sec span{
+    position: absolute;
+    font-size: 14px;
+    top: 0;
+}
